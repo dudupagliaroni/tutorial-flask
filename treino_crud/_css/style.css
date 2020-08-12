@@ -1,0 +1,66 @@
+@charset 'UTF-8';
+
+body{
+    background-color: #23282D;
+    color: lightgray;
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+
+div.interface{
+    text-align: center;
+}
+figure.titulo{
+    text-align: center;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: uppercase;
+    
+}
+
+figure.legenda-icone{
+    text-align: center;
+    font-family: Arial;
+    font-size: large;
+    font: 600;
+    
+}
+
+
+
+    
+nav#menu ul {
+    list-style:none;
+    text-transform: uppercase;
+    display: block;
+}
+
+nav#menu li {
+    text-align: center;
+    margin: -1.5px;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #474D57;
+    
+}
+
+nav#menu li:hover {
+    background-color: darkgray;
+}
+
+nav#menu a img {
+    
+    
+    
+}
+
+nav#menu a {
+      
+    color: black;
+    text-decoration: none;
+}
